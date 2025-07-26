@@ -1,0 +1,93 @@
+/* ========== General Body ========== */
+body {
+    background: linear-gradient(135deg, #101d28, #1a2b38, #253748); /* slightly blended shades */
+    color: #e0ffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========== Container & Logo ========== */
+.main-container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+}
+
+/* ========== Form & Chat Boxes ========== */
+.form-box, .chat-box {
+    background: #1c1c1c;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 0 15px #00ffcc44;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ========== Input Fields & Buttons ========== */
+.form-group,
+input,
+.btn,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input,
+.btn,
+button {
+    background: #000;
+    color: #00ffcc;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #00ffcc55;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+button:hover {
+    box-shadow: 0 0 12px #00ffccaa;
+    outline: none;
+}
+
+/* ========== Chat Entries ========== */
+.chat-entry {
+    background: #111;
+    border-left: 4px solid #00ffcc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-msg {
+    color: #ffffff;
+}
+
+.bot-msg {
+    color: #00ffcc;
+}
+
+/* ========== Logout Link ========== */
+.logout {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #ff4444;
+    text-decoration: none;
+}
+
+.logout:hover {
+    color: #ff8888;
+}
